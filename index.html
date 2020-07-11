@@ -7,9 +7,11 @@
 <body>
   
 <form action="send.php" method="post">
-<input type="text" name="fio" placeholder="Укажите ФИО">
-<input type="text" name="email" placeholder="Укажите e-mail">
-<input type="submit" value="Отправить">
+
+Ваше имя <input type="text" name="first_name"><br>
+Email: <input type="text" name="email" required placeholder="Обязательное поле"><br>
+Сообщение:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+<input type="submit" name="submit" value="Submit">
 </form>
 
 </body>
